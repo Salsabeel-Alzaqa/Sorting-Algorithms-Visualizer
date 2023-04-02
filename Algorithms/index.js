@@ -91,7 +91,7 @@ function Solve()
     }
 }
 
-let delay_time=10000/(Math.floor(array_size/10)*10000);//Decrease numerator to increase speed.
+let delay_time=10000/(Math.floor(array_size/10)*20);//Decrease numerator to increase speed.
 let delay = 0;//This is updated every div change so that visualization is visible.
 function div_update(element,height,color)
 {
