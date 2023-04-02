@@ -9,6 +9,9 @@ Algorithms covered so far:
 5) Heap sort. 
 6) Quick sort.
 
+## Live Demo
+- [Sorting Algorithms Visualizer](https://salsabeel-alzaqa.github.io/Sorting-Algorithms-Visualizer/)
+
 ## Color Reference
 
 | Color             | Explanation                                                                |
@@ -18,8 +21,16 @@ Algorithms covered so far:
 | ![#FF0000](https://placehold.co/15x15/FF0000/FF0000.png) | In incorrect position and to be moved |
 |![#008000](https://placehold.co/15x15/008000/008000.png)| In correct position|
 
-## Live Demo
-- [Demo](https://salsabeel-alzaqa.github.io/Sorting-Algorithms-Visualizer/)
+## Technologies Used
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+</a>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
+</a>
+<a href="https://www.w3schools.com/js/default.asp" target="_blank" rel="noreferrer">
+  <img src="https://www.growingsearch.com/blog/wp-content/uploads/2019/02/Javascript-shield-450x445.png" alt="javascript" width="40" height="40"/>
+</a>
 
 ## Screenshots
 
