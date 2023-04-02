@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sorting Algorithms Visualizer </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Algorithms-nav -->
+    <header>
+        <nav class="nav">            
+            <ul class="nav-list">
+                <li class="nav-item"><button id="new-array">Randomize</button></li>
+                <li class="nav-item">
+                    <label>Array Size
+                        <input id="array-size" type="range" min="5" max="100" value="20" /></label>
+                </li>
+                <li class="algo-item"><button class="algo-name">Bubble Sort</button></li>
+                <li class="algo-item"><button class="algo-name">Merge Sort</button></li>
+                <li class="algo-item"><button class="algo-name">Selection Sort</button></li>
+                <li class="algo-item"><button class="algo-name">Insertion Sort</button></li>
+                <li class="algo-item"><button class="algo-name">Heap Sort</button></li>
+                <li class="algo-item"><button class="algo-name">Quick Sort</button></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- info-section -->
+    <section class="info-section">
+        <h1  id="heading">Please choose a sorting algorithm!!</h1> 
+        <p id="array-info"></p>
+        <div class="info-item">
+            Color Info : 
+            <div class="square square0"></div><p>Default</p>
+            <div class="square square1"></div><p>Being compared</p>
+            <div class="square square2"></div><p>In incorrect position and to be moved</p>
+            <div class="square square3"></div><p>In correct position</p>
+        </div>
+    </section>
+    <!-- element-section -->
+    <section>
+        <div id="array-container">
+        </div>
+    </section>
+    <script src="./Algorithms/index.js"></script>    
+    <script src="./Algorithms/Bubble.js"></script>
+    <script src="./Algorithms/Selection.js"></script>
+    <script src="./Algorithms/Insertion.js"></script>
+    <script src="./Algorithms/Merge.js"></script>
+    <script src="./Algorithms/Quick.js"></script>
+    <script src="./Algorithms/Heap.js"></script>
+</body>
+</html>

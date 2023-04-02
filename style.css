@@ -1,0 +1,115 @@
+*,
+*::before,
+* ::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+/* for navbar */
+nav {
+    display: block;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color:#111;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(8, 30, 224, 0.185);
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.nav-item,.algo-item {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color:rgb(20, 106, 235);
+}
+.nav-item{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+label{
+    font-size:15px;
+}
+.algo-name{
+    color: rgb(20, 106, 235);
+    padding: 14px 16px;
+    background-color: transparent;
+    border: none;
+}
+.algo-name:focus {
+    background-color:black;
+}
+#new-array {
+    background-color: transparent;
+    color: rgb(20, 106, 235);
+    height: 25px;
+}
+/* end */
+#heading{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.info-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+#array-info {
+    text-align: center;
+    color: steelblue;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+.square0 {
+    width: 20px;
+    height: 20px;
+    background-color: steelblue;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.square1 {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.square2 {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.square3 {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#array-container {
+    display: flex;
+    align-items: flex-end;
+    margin: auto;
+    flex-direction: row;
+    width: 90%;
+    height: 70vh;
+    padding: 5px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(8, 30, 224, 0.185);
+    border:solid;
+}
+#array-container span {
+    color:blanchedalmond;
+    font-size: xx-small;
+}
